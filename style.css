@@ -1,0 +1,101 @@
+.head__main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+    gap: 10px;
+    align-items: center;
+    background: #FFFFFFE5;
+    border-radius: 50px;
+}
+
+.left__header {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav__header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btns__header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.registration {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3C3E50;
+}
+
+.sign__in {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #38BFF2;
+    border-radius: 35px;
+    padding: 10px 16px;
+}
+
+.school__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.title__programming {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.title {
+    font-size: 46px;
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hr__main {
+    border: 1px solid #DEDEDE;
+    max-width: 405px;
+}
+
+.main__span {
+    font-size: 18px;
+    max-width: 410px;
+    font-weight: 400;
+}
+
+.orangeBtn {
+    background: #F15525;
+    border-radius: 80px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 300px;
+    color: white;
+}

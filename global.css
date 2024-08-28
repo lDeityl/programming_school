@@ -11,6 +11,15 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+    background-image: url('./img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
 /* Links */
 
 a,
@@ -58,6 +67,7 @@ img,
 svg {
     max-width: 100%;
     height: auto;
+    user-select: none;
 }
 
 address {
@@ -107,4 +117,47 @@ label {
 
 legend {
     display: block;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.lightblue {
+    color: #38BFF2;
+}
+
+.orange {
+    color: #F15525;
+}
+
+.black {
+    color: #22253B;
+}
+
+.gray {
+    color: #8E8E8E;
+}
+
+.letters {
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+}
+
+.symbolY,
+.symbolT {
+    font-size: 36px;
+}
+
+.fwBold {
+    font-weight: 800;
 }

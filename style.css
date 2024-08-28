@@ -1,0 +1,33 @@
+.logo__text {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.lightblue {
+    color: #38BFF2;
+}
+
+.black {
+    color: #C4C4C4;
+}
+
+.footer__left {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.up__footer__left {
+    display: flex;
+    gap: 20px;
+}
+
+.text {
+    text-align: right;
+}
+
+.li__footer {
+    align-items: end;
+    gap: 25px;
+}
